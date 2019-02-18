@@ -1,4 +1,4 @@
-# Recent Baselins
+# Recent Baselines
 * *Bold style* indicates its SoTA score of a specific dataset.
 
 | Baseline models                                                                                      | Year      | Dataset                                                              | code                          | Run?                          | Code address                                                                                                                                                                |
