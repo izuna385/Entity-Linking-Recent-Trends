@@ -23,9 +23,9 @@
 * Details are wrintten in *Neural Collective Entity Linking*. [paper](http://www.aclweb.org/anthology/C18-1057)
 
 ### Trend in the point of *local* vs *global*
-[localvsglobal](./img/localvsglobal.png)
+![localvsglobal](./img/localvsglobal.png)
 
 ### What is *local*/*global* model?
-[local](./img/local.png)  
+![local](./img/local.png)  
 
-[global](./img/global.png)
+![global](./img/global.png)
