@@ -14,18 +14,18 @@
 | Learning Distributed Representations of Texts and Entities from Knowledge Base(Yamada,Shindo)        | ACL2017   | CoNLL-PPD(**94.7**,p-mic),TAC2010(87.7,mic-acc)                      | pytorch/Keras(original)       | checking                      | [Torch](https://github.com/lephong/mulrel-nel/blob/master/nel/ntee.py), [Torch](https://github.com/AdityaAS/PyTorch_NTEE), [Original](https://github.com/studio-ousia/ntee) |
 
 ## Entity Linking Introductions
-![intro](./img/intro.png)  
+<img src='./img/intro.png' width=960>
 
-
-![procedure](./img/procedure.png)
+<img src='./img/procedure.png' width=960>
 
 ## Local model and Global model
 * Details are wrintten in *Neural Collective Entity Linking*. [paper](http://www.aclweb.org/anthology/C18-1057)
 
 ### Trend in the point of *local* vs *global*
-![localvsglobal](./img/localvsglobal.png)
+
+<img src='./img/localvsglobal.png' width=960>
 
 ### What is *local*/*global* model?
-![local](./img/local.png)  
+<img src='./img/local.png' width=960>
 
-![global](./img/global.png)
+<img src='./img/global.png' width=960>
