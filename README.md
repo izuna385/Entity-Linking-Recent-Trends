@@ -1,4 +1,21 @@
-# Recent Baselines
+# Recent trend(~ACL'19)
+* Trends of lleveraging all information(e.g. mention's type and definition and documents in which mention exists, etc...) seems to be disappering.
+
+* Although Wikipedia domain can use its hyperlink(=mention-entity pairs, about 7,500,000) for training linking model, under some domain-specific situations there are not so much mention-entity pairs.
+
+* Therefore, some papers are now challenging distant-learning and zero-shot learning of Entity linking.
+
+  * Distant Learning
+
+    * [Distant Learning for Entity Linking with Automatic Noise Detection(ACL'19)](https://github.com/izuna385/papers/wiki/038_Distant_Learning_for_Entity_linking(ACL19))
+
+    * [Boosting Entity Linking Performance by Leveraging Unlabeled Documents](https://arxiv.org/abs/1906.01250)
+
+  * Zero-shot Linking
+
+    * [Zero-Shot Entity Linking by Reading Entity Descriptions](https://arxiv.org/abs/1906.07348)
+
+# Recent Baselines(~ACL'18)
 * *Bold style* indicates its SoTA score of a specific dataset.
 
 | Baseline models                                                                                      | Year      | Dataset                                                              | code                          | Run?                          | Code address                                                                                                                                                                |
