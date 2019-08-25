@@ -1,5 +1,5 @@
 # Recent trend(~ACL'19)
-* Trends of lleveraging all information(e.g. mention's type and definition and documents in which mention exists, etc...) seems to be disappering.
+* Trends of  leveraging all information(e.g. mention's type and definition and documents in which mention exists, etc...) seems to be disappering.
 
 * Although Wikipedia domain can use its hyperlink(=mention-entity pairs, about 7,500,000) for training linking model, under some domain-specific situations there are not so much mention-entity pairs.
 
