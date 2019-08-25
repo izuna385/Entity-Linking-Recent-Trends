@@ -7,7 +7,9 @@
 
   * Distant Learning
 
-    * [Distant Learning for Entity Linking with Automatic Noise Detection(ACL'19)](https://github.com/izuna385/papers/wiki/038_Distant_Learning_for_Entity_linking(ACL19))
+    * [Distant Learning for Entity Linking with Automatic Noise Detection](https://github.com/izuna385/papers/wiki/038_Distant_Learning_for_Entity_linking(ACL19))
+
+      * [slide](https://speakerdeck.com/izuna385/distant-learning-for-entity-linking-with-automatic-noise-detection)
 
     * [Boosting Entity Linking Performance by Leveraging Unlabeled Documents](https://arxiv.org/abs/1906.01250)
 
