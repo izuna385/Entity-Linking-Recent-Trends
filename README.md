@@ -1,3 +1,27 @@
+# Recent trend(EMNLP'19, CoNLL'19, and others.)
+
+* Fine-Grained Evaluation for Entity Linking (EMNLP'19)
+
+  * [repo](https://github.com/henryrosalesmendez/EL_exp)
+
+[]()
+
+* Learning Dynamic Context Augmentation for Global Entity Linking (EMNLP'19)
+
+  * [paper](https://arxiv.org/abs/1909.02117), [repo](https://github.com/YoungXiyuan/DCA)
+
+[]()
+
+* Fine-Grained Entity Typing for Domain Independent Entity Linking
+
+  * [paper](https://arxiv.org/abs/1909.05780)
+
+* Investigating Entity Knowledge in BERT With Simple Neural End-To-End Entity Linking	(CoNLL '19)
+
+* Learning Dense Representations for Entity Retrieval (CoNLL '19')
+
+  * [paper](https://arxiv.org/abs/1909.10506), [repo](https://github.com/google-research/google-research/tree/master/dense_representations_for_entity_retrieval/)
+
 # Recent trend(~ACL'19)
 * Trends of  leveraging all information(e.g. mention's type and definition and documents in which mention exists, etc...) seems to be disappering.
 
