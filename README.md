@@ -12,6 +12,13 @@
 
 []()
 
+* EntEval: A Holistic Evaluation Benchmark for Entity Representations (EMNLP '19)
+
+  * [repo](https://github.com/ZeweiChu/EntEval)
+
+
+[]()
+
 * Fine-Grained Entity Typing for Domain Independent Entity Linking
 
   * [paper](https://arxiv.org/abs/1909.05780)
