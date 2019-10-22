@@ -29,6 +29,8 @@
 
   * [paper](https://arxiv.org/abs/1909.10506), [repo](https://github.com/google-research/google-research/tree/master/dense_representations_for_entity_retrieval/)
 
+  * They proposed no use of alias table(which was based on wikipedia statistics or prepared one) and searching all entities by brute-force/approximate nearest search for linking entity per mention.
+
 # Recent trend(~ACL'19)
 * Trends of  leveraging all information(e.g. mention's type and definition and documents in which mention exists, etc...) seems to be disappering.
 
@@ -41,6 +43,8 @@
     * [Distant Learning for Entity Linking with Automatic Noise Detection](https://github.com/izuna385/papers/wiki/038_Distant_Learning_for_Entity_linking(ACL19))
 
       * [slide](https://speakerdeck.com/izuna385/distant-learning-for-entity-linking-with-automatic-noise-detection)
+
+      * They proposed framing EL as Distant Learning problem, in which no labeled training data is available, and de-noising model for this task.
 
     * [Boosting Entity Linking Performance by Leveraging Unlabeled Documents](https://arxiv.org/abs/1906.01250)
 
