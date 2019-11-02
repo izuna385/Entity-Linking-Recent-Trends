@@ -1,4 +1,7 @@
-# Recent trend(EMNLP'19, CoNLL'19, and others.)
+# Recent trend(EMNLP'19, CoNLL'19, ICLR'19 and others.)
+* Although there seems to be research related to EL model itself, some are now studying about (how to get) "Entity Representation" itself.
+
+## Model for entity linking
 
 * Fine-Grained Evaluation for Entity Linking (EMNLP'19)
 
@@ -10,11 +13,6 @@
 
   * [paper](https://arxiv.org/abs/1909.02117), [repo](https://github.com/YoungXiyuan/DCA)
 
-[]()
-
-* EntEval: A Holistic Evaluation Benchmark for Entity Representations (EMNLP '19)
-
-  * [repo](https://github.com/ZeweiChu/EntEval)
 
 
 []()
@@ -23,13 +21,33 @@
 
   * [paper](https://arxiv.org/abs/1909.05780)
 
+[]()
+
 * Investigating Entity Knowledge in BERT With Simple Neural End-To-End Entity Linking	(CoNLL '19)
+
+  * To be published(Not found@2nd, Nov)
+
+## Entity Representation
 
 * Learning Dense Representations for Entity Retrieval (CoNLL '19')
 
   * [paper](https://arxiv.org/abs/1909.10506), [repo](https://github.com/google-research/google-research/tree/master/dense_representations_for_entity_retrieval/)
 
   * They proposed no use of alias table(which was based on wikipedia statistics or prepared one) and searching all entities by brute-force/approximate nearest search for linking entity per mention.
+
+[]()
+
+* EntEval: A Holistic Evaluation Benchmark for Entity Representations (EMNLP '19)
+
+  * [repo](https://github.com/ZeweiChu/EntEval)
+
+  []()
+
+* Learning Entity Representations for Few-Shot Reconstruction of Wikipedia Categories (ICLR '19')
+
+  * [openreview](https://openreview.net/forum?id=BJgum4Qgu4)
+
+---
 
 # Recent trend(~ACL'19)
 * Trends of  leveraging all information(e.g. mention's type and definition and documents in which mention exists, etc...) seems to be disappering.
@@ -55,6 +73,10 @@
     * [slides](https://speakerdeck.com/izuna385/zero-shot-entity-linking-by-reading-entity-descriptions)
 
     * They proposed Zero-shot EL, under which no test mentions can be seen during training. For tackling Zero-shot EL, they proposed Domain-adaptive strategy for pre-training Language model. Also, they showed that mention-entity description cross-attention is crucial for EL.
+
+* BERT-based entity representation learning also emerged.
+
+  * ERNIE: Enhanced Language Representation with Informative Entities [[paper](https://arxiv.org/abs/1905.07129)]
 
 # Recent Baselines(~ACL'18)
 * *Bold style* indicates its SoTA score of a specific dataset.
