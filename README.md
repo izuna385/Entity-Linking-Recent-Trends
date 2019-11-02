@@ -78,6 +78,8 @@
 
   * ERNIE: Enhanced Language Representation with Informative Entities [[paper](https://arxiv.org/abs/1905.07129)]
 
+---
+
 # Recent Baselines(~ACL'18)
 * *Bold style* indicates its SoTA score of a specific dataset.
 
