@@ -42,7 +42,7 @@
 
     * [Distant Learning for Entity Linking with Automatic Noise Detection](https://github.com/izuna385/papers/wiki/038_Distant_Learning_for_Entity_linking(ACL19))
 
-      * [slide](https://speakerdeck.com/izuna385/distant-learning-for-entity-linking-with-automatic-noise-detection)
+      * [slides](https://speakerdeck.com/izuna385/distant-learning-for-entity-linking-with-automatic-noise-detection)
 
       * They proposed framing EL as Distant Learning problem, in which no labeled training data is available, and de-noising model for this task.
 
@@ -51,6 +51,10 @@
   * Zero-shot Linking
 
     * [Zero-Shot Entity Linking by Reading Entity Descriptions](https://arxiv.org/abs/1906.07348)
+
+    * [slides](https://speakerdeck.com/izuna385/zero-shot-entity-linking-by-reading-entity-descriptions)
+
+    * They proposed Zero-shot EL, under which no test mentions can be seen during training. For tackling Zero-shot EL, they proposed Domain-adaptive strategy for pre-training Language model. Also, they showed that mention-entity description cross-attention is crucial for EL.
 
 # Recent Baselines(~ACL'18)
 * *Bold style* indicates its SoTA score of a specific dataset.
