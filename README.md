@@ -81,6 +81,9 @@
 ---
 
 # Recent Baselines(~ACL'18)
+
+* (Commented@Nov,2019) In those days, researches for improving Entity linking **model** itself were flourishing.
+
 * *Bold style* indicates its SoTA score of a specific dataset.
 
 | Baseline models                                                                                      | Year      | Dataset                                                              | code                          | Run?                          | Code address                                                                                                                                                                |
@@ -95,7 +98,9 @@
 | Joint Learning of the Embedding of Words and Entities for Named Entity Disambiguation(Yamada,Shindo) | CoNLL2016 | CoNLL-YAGO(91.5,mic-acc),CoNLL-PPD(93.1,p-mic),TAC2010(85.5,mic-acc) | pytorch/Tensorflow(original), | checking                      | [Baseline(2016)](https://github.com/hiroshi-ho/EDPipline),[Baseline Original](https://github.com/wikipedia2vec/wikipedia2vec)                                               |
 | Learning Distributed Representations of Texts and Entities from Knowledge Base(Yamada,Shindo)        | ACL2017   | CoNLL-PPD(**94.7**,p-mic),TAC2010(87.7,mic-acc)                      | pytorch/Keras(original)       | checking                      | [Torch](https://github.com/lephong/mulrel-nel/blob/master/nel/ntee.py), [Torch](https://github.com/AdityaAS/PyTorch_NTEE), [Original](https://github.com/studio-ousia/ntee) |
 
-## Entity Linking Introductions
+---
+
+# Entity Linking Introductions
 <img src='./img/intro.png' width=960>
 
 <img src='./img/procedure.png' width=960>
