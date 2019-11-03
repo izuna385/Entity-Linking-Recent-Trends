@@ -47,6 +47,12 @@
 
   * [openreview](https://openreview.net/forum?id=BJgum4Qgu4)
 
+[]()
+
+* Knowledge Enhanced Contextual Word Representations (EMNLP '19) [[paper](https://arxiv.org/abs/1909.04164)]
+
+  * By injecting KB entity information into the mention-span representations through BERT, they improves the quality of the masked LM and its ability to recall facts.
+
 ---
 
 # Recent trend(~ACL'19)
