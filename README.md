@@ -25,7 +25,7 @@
 
 * Investigating Entity Knowledge in BERT With Simple Neural End-To-End Entity Linking	(CoNLL '19) [[paper](https://www.aclweb.org/anthology/K19-1063.pdf)]
 
-  * They proposed end-to-end EL *including candidate generation step* for the first time, by casting EL as token-classification problem.
+  * They proposed end-to-end EL *including candidate generation step* for the first time, by casting EL as token-classification problem.
 
 ## Entity Representation
 
