@@ -122,3 +122,19 @@
 <img src='./img/local.png' width=960>
 
 <img src='./img/global.png' width=960>
+
+---
+
+## memo, papers to read
+
+* separate sections into entity representation / entity LM / entity linking?
+
+* ent rep. and ent LM new papers
+
+  * [Latent Relation Language Models](https://arxiv.org/abs/1908.07690) (Hayashi et al.,'19)
+
+  * [Knowledge Enhanced Contextual Word Representations](https://www.semanticscholar.org/paper/Knowledge-Enhanced-Contextual-Word-Representations-Peters-Neumann/23fa28a4851d992891a4809f3f5f0ac2f53221fa) (Peters et al., IJCNLP'19)
+
+* entity linking new papers
+
+  * [Towards Zero-resource Cross-lingual Entity Linking](https://arxiv.org/abs/1909.13180) (Shuyan et al., EMNLP workshop '19)
