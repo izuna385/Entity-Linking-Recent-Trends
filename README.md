@@ -127,7 +127,7 @@
 
 ## memo, papers to read
 
-* separate sections into entity representation / entity LM / entity linking?
+* separate sections into entity representation / entity LM / entity linking[Long / short text] / Entity describing?
 
 * ent rep. and ent LM new papers
 
