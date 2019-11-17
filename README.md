@@ -3,6 +3,12 @@
 
 ## Model for entity linking
 
+* Zero-shot Entity Linking with Dense Entity Retrieval(10th, Nov) [paper](http://arxiv.org/pdf/1911.03814)
+
+  * Similar to [[Logeswaran, et al., ACL'19]](#Zeroshot) and [[Gillick, et al., CoNLL'19]](#DenseEnt)
+
+[]()
+
 * Fine-Grained Evaluation for Entity Linking (EMNLP'19)
 
   * [repo](https://github.com/henryrosalesmendez/EL_exp)
@@ -29,7 +35,7 @@
 
 ## Entity Representation
 
-* Learning Dense Representations for Entity Retrieval (CoNLL '19')
+* Learning Dense Representations for Entity Retrieval (CoNLL '19') <a name="DenseEnt"></a>
 
   * [paper](https://arxiv.org/abs/1909.10506), [repo](https://github.com/google-research/google-research/tree/master/dense_representations_for_entity_retrieval/)
 
@@ -74,7 +80,7 @@
 
   * Zero-shot Linking
 
-    * [Zero-Shot Entity Linking by Reading Entity Descriptions](https://arxiv.org/abs/1906.07348)
+    * [Zero-Shot Entity Linking by Reading Entity Descriptions](https://arxiv.org/abs/1906.07348)<a name="Zeroshot"></a>
 
     * [slides](https://speakerdeck.com/izuna385/zero-shot-entity-linking-by-reading-entity-descriptions)
 
