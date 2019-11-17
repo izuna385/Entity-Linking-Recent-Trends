@@ -34,8 +34,8 @@
   * They proposed end-to-end EL *including candidate generation step* for the first time, by casting EL as token-classification problem.
 
 ## Entity Representation
-
-* Learning Dense Representations for Entity Retrieval (CoNLL '19') <a name="DenseEnt"></a>
+<a name="DenseEnt"></a>
+* Learning Dense Representations for Entity Retrieval (CoNLL '19')
 
   * [paper](https://arxiv.org/abs/1909.10506), [repo](https://github.com/google-research/google-research/tree/master/dense_representations_for_entity_retrieval/)
 
@@ -79,8 +79,8 @@
     * [Boosting Entity Linking Performance by Leveraging Unlabeled Documents](https://arxiv.org/abs/1906.01250)
 
   * Zero-shot Linking
-
-    * [Zero-Shot Entity Linking by Reading Entity Descriptions](https://arxiv.org/abs/1906.07348)<a name="Zeroshot"></a>
+  <a name="Zeroshot"></a>
+    * [Zero-Shot Entity Linking by Reading Entity Descriptions](https://arxiv.org/abs/1906.07348)
 
     * [slides](https://speakerdeck.com/izuna385/zero-shot-entity-linking-by-reading-entity-descriptions)
 
