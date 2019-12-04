@@ -144,3 +144,9 @@
 * entity linking new papers
 
   * [Towards Zero-resource Cross-lingual Entity Linking](https://arxiv.org/abs/1909.13180) (Shuyan et al., EMNLP workshop '19)
+
+  * List-only Entity Linking [paper](https://www.aclweb.org/anthology/P17-2085.pdf)
+
+  * Joint Learning of Named Entity Recognition and Entity Linking [paper](https://arxiv.org/abs/1907.08243)
+
+  * Pre-training of Deep Contextualized Embeddings of Words and Entities for Named Entity Disambiguation [paper](https://arxiv.org/abs/1909.00426)
