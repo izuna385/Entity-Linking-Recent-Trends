@@ -130,7 +130,7 @@
 <img src='./img/global.png' width=960>
 
 ---
-## Another Trends: BERT x KB
+## Another Trend: BERT x KB
 * Some researches are now trying to incorporate KB information with BERT.
 
   * [KEPLER: A Unified Model for Knowledge Embedding and
@@ -142,7 +142,7 @@ Pre-trained Language Representation](https://arxiv.org/abs/1911.06136) (work in 
 
 * [[Petroni, et al., '19]](https://arxiv.org/abs/1909.01066) checked whether BERT *itself* has factual knowledge.
 
----
+
 ## memo, papers to read
 
 * separate sections into entity representation / entity LM / entity linking[Long / short text] / Entity describing?
