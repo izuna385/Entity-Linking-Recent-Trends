@@ -1,5 +1,5 @@
 # Recent trends of Entiy Linking
-This repository aims to track the progress in Entity Linking. Studies on how to prepare entity representations are also listed, as entity representations are also mandatory with Entity linking.
+This repository aims to track the progress in Entity Linking. Studies on how to prepare entity representations are also listed, as entity representations are mandatory with Entity linking.
 
 
 
@@ -51,7 +51,7 @@ This repository aims to track the progress in Entity Linking. Studies on how to 
 
 ## Entity Representation
 <a name="DenseEnt"></a>
-* Learning Dense Representations for Entity Retrieval (CoNLL '19')
+* Learning Dense Representations for Entity Retrieval (CoNLL '19)
 
   * [paper](https://arxiv.org/abs/1909.10506), [repo](https://github.com/google-research/google-research/tree/master/dense_representations_for_entity_retrieval/)
 
@@ -65,7 +65,7 @@ This repository aims to track the progress in Entity Linking. Studies on how to 
 
   []()
 
-* Learning Entity Representations for Few-Shot Reconstruction of Wikipedia Categories (ICLR '19')
+* Learning Entity Representations for Few-Shot Reconstruction of Wikipedia Categories (ICLR '19)
 
   * [openreview](https://openreview.net/forum?id=BJgum4Qgu4)
 
