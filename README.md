@@ -1,3 +1,8 @@
+# Recent trends of Entiy Linking
+This repository aims to track the progress in Entity Linking. Studies on how to prepare entity representations are also listed, as entity representations are also mandatory with Entity linking.
+
+
+
 ## Contents
 - [Trends (~EMNLP'19, CoNLL'19, ICLR'19)](#recent-trendemnlp19-conll19-iclr19-and-others)
 - [Trends (~ACL'19)](#recent-trendacl19)
