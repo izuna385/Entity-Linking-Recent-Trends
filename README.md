@@ -115,7 +115,8 @@
 
 * Based on papers@December,'19
 
-![entrep](./img/entrep.png)
+<img src='./img/entrep.png' width=960>
+
 
 ---
 
