@@ -1,15 +1,15 @@
 ## Contents
-- [Trends (~EMNLP'19, CoNLL'19, ICLR'19)](#emnlp19)
-- [Trends (~ACL'19)](#acl19)
-- [Baselines (~ACL'18)](#acl18)
-- [Entity Linking Introduction](#elintro)
+- [Trends (~EMNLP'19, CoNLL'19, ICLR'19)](#recent-trendemnlp19-conll19-iclr19-and-others)
+- [Trends (~ACL'19)](#recent-trendacl19)
+- [Baselines (~ACL'18)](#recent-baselinesacl18)
+- [Entity Linking Introduction](#entity-linking-introductions)
 
 ### Sub contents
-* [How to get entity representation?](#entrep)
-* [Another Trend: BERT x KB](#bertkb)
+* [How to get entity representation?](#how-to-getprepare-entity-representations)
+* [Another Trend: BERT x KB](#another-trend-bert-x-kb)
 ---
 # Recent trend(EMNLP'19, CoNLL'19, ICLR'19 and others.)
-<a href="#emnlp19"></a>
+
 * Although there seems to be research related to EL model itself, some are now studying about (how to get) "Entity Representation" itself.
 
 ## Model for entity linking
@@ -71,7 +71,7 @@
   * By injecting KB entity information into the mention-span representations through BERT, they improves the quality of the masked LM and its ability to recall facts.
 
 ---
-<a href="#acl19"></a>
+
 # Recent trend(~ACL'19)
 * Trends of  leveraging all information(e.g. mention's type and definition and documents in which mention exists, etc...) seems to be disappering.
 
@@ -102,7 +102,7 @@
   * ERNIE: Enhanced Language Representation with Informative Entities [[paper](https://arxiv.org/abs/1905.07129)]
 
 ---
-<a href="#acl18"></a>
+
 # Recent Baselines(~ACL'18)
 
 * (Commented@Nov,2019) In those days, researches for improving Entity linking **model** itself were flourishing.
@@ -123,7 +123,7 @@
 
 ---
 ## How to get/prepare entity representations?
-<a href="#entrep"></a>
+
 * Based on papers@December,'19
 
 <img src='./img/entrep.png' width=960>
@@ -131,7 +131,7 @@
 ---
 
 ## Another Trend: BERT x KB
-<a href="#bertkb"></a>
+
 * Some researches are now trying to incorporate KB information with BERT.
 
   * [KEPLER: A Unified Model for Knowledge Embedding and
@@ -144,7 +144,7 @@ Pre-trained Language Representation](https://arxiv.org/abs/1911.06136) (work in 
 * [[Petroni, et al., '19]](https://arxiv.org/abs/1909.01066) checked whether BERT *itself* has factual knowledge.
 
 ---
-<a href="#elintro"></a>
+
 # Entity Linking Introductions
 <img src='./img/intro.png' width=960>
 
