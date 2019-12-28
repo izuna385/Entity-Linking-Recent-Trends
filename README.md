@@ -111,6 +111,14 @@
 | Learning Distributed Representations of Texts and Entities from Knowledge Base(Yamada,Shindo)        | ACL2017   | CoNLL-PPD(**94.7**,p-mic),TAC2010(87.7,mic-acc)                      | pytorch/Keras(original)       | checking                      | [Torch](https://github.com/lephong/mulrel-nel/blob/master/nel/ntee.py), [Torch](https://github.com/AdityaAS/PyTorch_NTEE), [Original](https://github.com/studio-ousia/ntee) |
 
 ---
+## How to get/prepare entity representations?
+
+* Based on papers@December,'19
+
+![entrep](./img/entrep.png)
+
+---
+
 
 # Entity Linking Introductions
 <img src='./img/intro.png' width=960>
