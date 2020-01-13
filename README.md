@@ -19,7 +19,7 @@ This repository aims to track the progress in Entity Linking. Studies on how to 
 
 ## Model for entity linking
 
-* Improving Entity Linking by Modeling Latent Entity Type Information(AAAI'20)[paper](https://arxiv.org/abs/2001.01447)
+* Improving Entity Linking by Modeling Latent Entity Type Information(AAAI'20) [paper](https://arxiv.org/abs/2001.01447)
 
 * Zero-shot Entity Linking with Dense Entity Retrieval(10th, Nov) [paper](http://arxiv.org/pdf/1911.03814)
 
