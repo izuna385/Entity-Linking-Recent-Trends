@@ -25,6 +25,8 @@ This repository aims to track the progress in Entity Linking. Studies on how to 
 
   * Similar to [[Logeswaran, et al., ACL'19]](#Zeroshot) and [[Gillick, et al., CoNLL'19]](#DenseEnt)
 
+  * [slides(unofficial)](https://speakerdeck.com/izuna385/zero-shot-entity-linking-with-dense-entity-retrieval-unofficial-slides)
+
 []()
 
 * Fine-Grained Evaluation for Entity Linking (EMNLP'19)
@@ -90,7 +92,7 @@ This repository aims to track the progress in Entity Linking. Studies on how to 
 
     * [Distant Learning for Entity Linking with Automatic Noise Detection](https://github.com/izuna385/papers/wiki/038_Distant_Learning_for_Entity_linking(ACL19))
 
-      * [slides](https://speakerdeck.com/izuna385/distant-learning-for-entity-linking-with-automatic-noise-detection)
+      * [slides(unofficial)](https://speakerdeck.com/izuna385/distant-learning-for-entity-linking-with-automatic-noise-detection)
 
       * They proposed framing EL as Distant Learning problem, in which no labeled training data is available, and de-noising model for this task.
 
@@ -100,7 +102,7 @@ This repository aims to track the progress in Entity Linking. Studies on how to 
   <a name="Zeroshot"></a>
     * [Zero-Shot Entity Linking by Reading Entity Descriptions](https://arxiv.org/abs/1906.07348)
 
-    * [slides](https://speakerdeck.com/izuna385/zero-shot-entity-linking-by-reading-entity-descriptions)
+    * [slides(unofficial)](https://speakerdeck.com/izuna385/zero-shot-entity-linking-by-reading-entity-descriptions)
 
     * They proposed Zero-shot EL, under which no test mentions can be seen during training. For tackling Zero-shot EL, they proposed Domain-adaptive strategy for pre-training Language model. Also, they showed that mention-entity description cross-attention is crucial for EL.
 
