@@ -13,7 +13,7 @@ This repository aims to track the progress in Entity Linking. Studies on how to 
 * [How to get entity representation?](#how-to-getprepare-entity-representations)
 * [Another Trend: BERT x KB](#another-trend-bert-x-kb)
 ---
-# Recent trend(EMNLP'19, CoNLL'19, ICLR'19, AAAI'20 and others.)
+# Trends(~EMNLP'19, CoNLL'19, ICLR'19-20)
 
 * Although there seems to be research related to EL model itself, some are now studying about (how to get) "Entity Representation" itself.
 
@@ -79,9 +79,15 @@ This repository aims to track the progress in Entity Linking. Studies on how to 
 
   * By injecting KB entity information into the mention-span representations through BERT, they improves the quality of the masked LM and its ability to recall facts.
 
+[]()
+
+* PRETRAINED ENCYCLOPEDIA: WEAKLY SUPERVISED KNOWLEDGE-PRETRAINED LANGUAGE MODEL (ICLR'20) [[paper](https://openreview.net/forum?id=BJlzm64tDH)]
+
+  * Adding a binary prediction task classifying whether entity is replaced or not, they trained the language model. For their purpose of checking whether LM itself contains knowledge, they evaluated model with Zero-Shot Fact Completion using Wikidata triplets.  
+
 ---
 
-# Recent trend(~ACL'19)
+# Trends(~ACL'19)
 * Trends of  leveraging all information(e.g. mention's type and definition and documents in which mention exists, etc...) seems to be disappering.
 
 * Although Wikipedia domain can use its hyperlink(=mention-entity pairs, about 7,500,000) for training linking model, under some domain-specific situations there are not so much mention-entity pairs.
@@ -112,7 +118,7 @@ This repository aims to track the progress in Entity Linking. Studies on how to 
 
 ---
 
-# Recent Baselines(~ACL'18)
+# Baselines(~ACL'18)
 
 * (Commented@Nov,2019) In those days, researches for improving Entity linking **model** itself were flourishing.
 
