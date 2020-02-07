@@ -4,16 +4,25 @@ This repository aims to track the progress in Entity Linking. Studies on how to 
 
 
 ## Contents
-- [Trends (~EMNLP'19, CoNLL'19, ICLR'19)](#recent-trendemnlp19-conll19-iclr19-and-others)
-- [Trends (~ACL'19)](#recent-trendacl19)
-- [Baselines (~ACL'18)](#recent-baselinesacl18)
+- [Trends(~ICLR'20)](#trendsiclr20)
+- [Trends (~EMNLP'19, CoNLL'19, ICLR'19)](#trendsemnlp19-conll19-iclr19)
+- [Trends (~ACL'19)](#trendsacl19)
+- [Baselines (~ACL'18)](#baselinesacl18)
 - [Entity Linking Introduction](#entity-linking-introductions)
 
 ### Sub contents
 * [How to get entity representation?](#how-to-getprepare-entity-representations)
 * [Another Trend: BERT x KB](#another-trend-bert-x-kb)
 ---
-# Trends(~EMNLP'19, CoNLL'19, ICLR'19-20)
+# Trends(~ICLR'20)
+
+* Pretrained Encyclopedia: Weakly Supervised Knowledge-Pretrained Language Model (ICLR'20) [[paper](https://openreview.net/forum?id=BJlzm64tDH)]
+
+  * Adding a binary prediction task classifying whether entity is replaced or not, they trained the language model. For their purpose of checking whether LM itself contains knowledge, they evaluated model with Zero-Shot Fact Completion using Wikidata triplets.  
+
+---
+
+# Trends(~EMNLP'19, CoNLL'19, ICLR'19)
 
 * Although there seems to be research related to EL model itself, some are now studying about (how to get) "Entity Representation" itself.
 
@@ -80,10 +89,6 @@ This repository aims to track the progress in Entity Linking. Studies on how to 
   * By injecting KB entity information into the mention-span representations through BERT, they improves the quality of the masked LM and its ability to recall facts.
 
 []()
-
-* PRETRAINED ENCYCLOPEDIA: WEAKLY SUPERVISED KNOWLEDGE-PRETRAINED LANGUAGE MODEL (ICLR'20) [[paper](https://openreview.net/forum?id=BJlzm64tDH)]
-
-  * Adding a binary prediction task classifying whether entity is replaced or not, they trained the language model. For their purpose of checking whether LM itself contains knowledge, they evaluated model with Zero-Shot Fact Completion using Wikidata triplets.  
 
 ---
 
