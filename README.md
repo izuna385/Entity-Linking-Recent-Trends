@@ -192,6 +192,8 @@ Pre-trained Language Representation](https://arxiv.org/abs/1911.06136) (work in 
 
 * separate sections into entity representation / entity LM / entity linking[Long / short text] / Entity describing?
 
+* Do we have to add WSD(word sense disambiguation) and ESR(entity similarity relatedness) too?
+
 * ent rep. and ent LM new papers
 
   * [Latent Relation Language Models](https://arxiv.org/abs/1908.07690) (Hayashi et al.,'19)
