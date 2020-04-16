@@ -30,7 +30,7 @@ This repository aims to track the progress in Entity Linking. Studies on how to 
 
 * Although there seems to be research related to EL model itself, some are now studying about (how to get) "Entity Representation" itself.
 
-## Model for entity linking
+## Models for entity linking
 
 * Improving Entity Linking by Modeling Latent Entity Type Information(AAAI'20) [paper](https://arxiv.org/abs/2001.01447)
 
@@ -39,6 +39,12 @@ This repository aims to track the progress in Entity Linking. Studies on how to 
   * Similar to [[Logeswaran, et al., ACL'19]](#Zeroshot) and [[Gillick, et al., CoNLL'19]](#DenseEnt)
 
   * [slides(unofficial)](https://speakerdeck.com/izuna385/zero-shot-entity-linking-with-dense-entity-retrieval-unofficial-slides)
+
+[]()
+
+* Entity Linking via Dual and Cross-Attention Encoders [arXiv](https://arxiv.org/abs/2004.03555)
+
+  *  Combineing [[Gillick, et al., CoNLL'19]](#DenseEnt) with cross-attention between a mention and its candidates.
 
 []()
 
@@ -65,6 +71,10 @@ This repository aims to track the progress in Entity Linking. Studies on how to 
 * Investigating Entity Knowledge in BERT With Simple Neural End-To-End Entity Linking	(CoNLL '19) [[paper](https://www.aclweb.org/anthology/K19-1063.pdf)]
 
   * They proposed end-to-end EL *including candidate generation step* for the first time, by casting EL as token-classification problem.
+
+[]()
+
+* Global Entity Disambiguation with Pretrained Contextualized Embeddings of Words and Entities [paper](https://arxiv.org/abs/1909.00426)
 
 ## Entity Representation
 <a name="DenseEnt"></a>
@@ -93,6 +103,7 @@ This repository aims to track the progress in Entity Linking. Studies on how to 
   * By injecting KB entity information into the mention-span representations through BERT, they improves the quality of the masked LM and its ability to recall facts.
 
 []()
+
 
 ---
 
@@ -207,5 +218,3 @@ Pre-trained Language Representation](https://arxiv.org/abs/1911.06136) (work in 
   * List-only Entity Linking [paper](https://www.aclweb.org/anthology/P17-2085.pdf)
 
   * Joint Learning of Named Entity Recognition and Entity Linking [paper](https://arxiv.org/abs/1907.08243)
-
-  * Pre-training of Deep Contextualized Embeddings of Words and Entities for Named Entity Disambiguation [paper](https://arxiv.org/abs/1909.00426)
