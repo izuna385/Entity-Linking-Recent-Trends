@@ -42,9 +42,9 @@ This repository aims to track the progress in Entity Linking. Studies on how to 
 
 []()
 
-* Entity Linking via Dual and Cross-Attention Encoders [arXiv](https://arxiv.org/abs/2004.03555)
+* Entity Linking via Dual and Cross-Attention Encoders [[arXiv](https://arxiv.org/abs/2004.03555)]
 
-  *  Combineing [[Gillick, et al., CoNLL'19]](#DenseEnt) with cross-attention between a mention and its candidates.
+  *  Combining [[Gillick, et al., CoNLL'19]](#DenseEnt) with cross-attention between a mention and its candidates.
 
 []()
 
@@ -74,7 +74,7 @@ This repository aims to track the progress in Entity Linking. Studies on how to 
 
 []()
 
-* Global Entity Disambiguation with Pretrained Contextualized Embeddings of Words and Entities [paper](https://arxiv.org/abs/1909.00426)
+* Global Entity Disambiguation with Pretrained Contextualized Embeddings of Words and Entities [[paper](https://arxiv.org/abs/1909.00426)]
 
 ## Entity Representation
 <a name="DenseEnt"></a>
