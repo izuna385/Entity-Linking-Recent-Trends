@@ -200,6 +200,7 @@ Pre-trained Language Representation](https://arxiv.org/abs/1911.06136) (work in 
 ---
 
 ## memo, papers to read
+* (Commented @ March, 2020) Currently this repository includes papers for both of Entity linking and Entity LM. The former requires encoding entity representation for disambiguation, while the latter means injecting entity knowledge into LM during the training. So they are completely diffrent, although some work of entity LM evaluated its model with entity disambiguation. We will separate them at this repository, in the near future.
 
 * separate sections into entity representation / entity LM / entity linking[Long / short text] / Entity describing?
 
@@ -209,7 +210,6 @@ Pre-trained Language Representation](https://arxiv.org/abs/1911.06136) (work in 
 
   * [Latent Relation Language Models](https://arxiv.org/abs/1908.07690) (Hayashi et al.,'19)
 
-  * [Knowledge Enhanced Contextual Word Representations](https://www.semanticscholar.org/paper/Knowledge-Enhanced-Contextual-Word-Representations-Peters-Neumann/23fa28a4851d992891a4809f3f5f0ac2f53221fa) (Peters et al., IJCNLP'19)
 
 * entity linking new papers
 
