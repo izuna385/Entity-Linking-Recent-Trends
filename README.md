@@ -1,4 +1,4 @@
-# Recent trends of Entiy Linking
+# Recent Trends of Entiy Linking
 This repository aims to track the progress in Entity Linking. Studies on how to prepare entity representations are also listed, as entity representations are mandatory with Entity linking.
 
 
@@ -10,7 +10,7 @@ This repository aims to track the progress in Entity Linking. Studies on how to 
 - [Baselines (~ACL'18)](#baselinesacl18)
 - [Entity Linking Introduction](#entity-linking-introductions)
 
-### Sub contents
+### Sub Contents
 * [How to get entity representation?](#how-to-getprepare-entity-representations)
 * [Another Trend: BERT x KB](#another-trend-bert-x-kb)
 ---
@@ -30,7 +30,7 @@ This repository aims to track the progress in Entity Linking. Studies on how to 
 
 * Although there seems to be research related to EL model itself, some are now studying about (how to get) "Entity Representation" itself.
 
-## Models for entity linking
+## Models for Entity Linking
 
 * Improving Entity Linking by Modeling Latent Entity Type Information(AAAI'20) [paper](https://arxiv.org/abs/2001.01447)
 
@@ -157,7 +157,7 @@ This repository aims to track the progress in Entity Linking. Studies on how to 
 | Learning Distributed Representations of Texts and Entities from Knowledge Base(Yamada,Shindo)        | ACL2017   | CoNLL-PPD(**94.7**,p-mic),TAC2010(87.7,mic-acc)                      | pytorch/Keras(original)       | checking                      | [Torch](https://github.com/lephong/mulrel-nel/blob/master/nel/ntee.py), [Torch](https://github.com/AdityaAS/PyTorch_NTEE), [Original](https://github.com/studio-ousia/ntee) |
 
 ---
-## How to get/prepare entity representations?
+## How to Get/Prepare Entity Representations?
 
 * Based on papers@December,'19
 
@@ -185,35 +185,44 @@ Pre-trained Language Representation](https://arxiv.org/abs/1911.06136) (work in 
 
 <img src='./img/procedure.png' width=960>
 
-## Local model and Global model
+## Local Model and Global Model
 * Details are wrintten in *Neural Collective Entity Linking*. [paper](http://www.aclweb.org/anthology/C18-1057)
 
-### Trend in the point of *local* vs *global*
+### Trend in the Point of *local* vs *global*
 
 <img src='./img/localvsglobal.png' width=960>
 
-### What is *local*/*global* model?
+### What is *local*/*global* Model?
 <img src='./img/local.png' width=960>
 
 <img src='./img/global.png' width=960>
 
 ---
 
-## memo, papers to read
-* (Commented @ March, 2020) Currently this repository includes papers for both of Entity linking and Entity LM. The former requires encoding entity representation for disambiguation, while the latter means injecting entity knowledge into LM during the training. So they are completely diffrent, although some work of entity LM evaluated its model with entity disambiguation. We will separate them at this repository, in the near future.
+## Misc
 
-* separate sections into entity representation / entity LM / entity linking[Long / short text] / Entity describing?
+* (Commented @ March, 2020) Currently this repository includes papers for both of Entity linking and Entity LM. The former requires encoding entity representation for disambiguation, while the latter means injecting entity knowledge into LM during the training. So they are completely diffrent, although some work of entity LM evaluated its model with entity disambiguation. We will separate them at this repository, in the near future.
 
 * Do we have to add WSD(word sense disambiguation) and ESR(entity similarity relatedness) too?
 
-* ent rep. and ent LM new papers
+* Cross-lingual EL papers.
 
-  * [Latent Relation Language Models](https://arxiv.org/abs/1908.07690) (Hayashi et al.,'19)
+  Cited from [Gupta et al.](https://www.aclweb.org/anthology/D18-1270/) (EMNLP '18)
+  > Cross-lingual Entity Linking (XEL) aims to
+ground entity mentions written in any language to an English Knowledge Base (KB),
+such as Wikipedia.
 
-
-* entity linking new papers
+  * [Joint Multilingual Supervision for Cross-lingual Entity Linking](https://www.aclweb.org/anthology/D18-1270/) (EMNLP '18)
 
   * [Towards Zero-resource Cross-lingual Entity Linking](https://arxiv.org/abs/1909.13180) (Shuyan et al., EMNLP workshop '19)
+
+* Entity Linking for Noisy/Short Texts
+
+  * Aggregated Semantic Matching for Short Text Entity Linking (ACL'18) [[paper](https://www.aclweb.org/anthology/K18-1046/)]
+
+  * Effective Use of Context in Noisy Entity Linking (EMNLP'18) [[paper](https://www.aclweb.org/anthology/D18-1126/)]
+
+* Some other papers
 
   * List-only Entity Linking [paper](https://www.aclweb.org/anthology/P17-2085.pdf)
 
