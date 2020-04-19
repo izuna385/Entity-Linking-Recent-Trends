@@ -1,20 +1,20 @@
 # Recent Trends of Entiy Linking
-This repository aims to track the progress in Entity Linking. Studies on how to prepare entity representations are also listed, as entity representations are mandatory with Entity linking.
+This repository aims to track the progress in Entity Linking. Studies on how to prepare Entity Representations are also listed, as Entity Representations are mandatory with Entity Linking.
 
 
 
 ## Contents
-- [Trends(~ICLR'20)](#trendsiclr20)
+- [Trends (~ICLR'20)](#trendsiclr20)
 - [Trends (~EMNLP'19, CoNLL'19, ICLR'19)](#trendsemnlp19-conll19-iclr19)
 - [Trends (~ACL'19)](#trendsacl19)
 - [Baselines (~ACL'18)](#baselinesacl18)
 - [Entity Linking Introduction](#entity-linking-introductions)
 
 ### Sub Contents
-* [How to get entity representation?](#how-to-getprepare-entity-representations)
+* [How to Get Entity Representation?](#how-to-getprepare-entity-representations)
 * [Another Trend: BERT x KB](#another-trend-bert-x-kb)
 ---
-# Trends(~ICLR'20)
+# Trends (~ICLR'20)
 
 * Pretrained Encyclopedia: Weakly Supervised Knowledge-Pretrained Language Model (ICLR'20) [[paper](https://openreview.net/forum?id=BJlzm64tDH)]
 
@@ -26,7 +26,7 @@ This repository aims to track the progress in Entity Linking. Studies on how to 
 
 ---
 
-# Trends(~EMNLP'19, CoNLL'19, ICLR'19)
+# Trends (~EMNLP'19, CoNLL'19, ICLR'19)
 
 * Although there seems to be research related to EL model itself, some are now studying about (how to get) "Entity Representation" itself.
 
@@ -107,7 +107,7 @@ This repository aims to track the progress in Entity Linking. Studies on how to 
 
 ---
 
-# Trends(~ACL'19)
+# Trends (~ACL'19)
 * Trends of  leveraging all information(e.g. mention's type and definition and documents in which mention exists, etc...) seems to be disappering.
 
 * Although Wikipedia domain can use its hyperlink(=mention-entity pairs, about 7,500,000) for training linking model, under some domain-specific situations there are not so much mention-entity pairs.
@@ -138,9 +138,9 @@ This repository aims to track the progress in Entity Linking. Studies on how to 
 
 ---
 
-# Baselines(~ACL'18)
+# Baselines (~ACL'18)
 
-* (Commented@Nov,2019) In those days, researches for improving Entity linking **model** itself were flourishing.
+* (Commented @ Nov,'19) In those days, researches for improving Entity linking **model** itself were flourishing.
 
 * *Bold style* indicates its SoTA score of a specific dataset.
 
@@ -221,6 +221,10 @@ such as Wikipedia.
   * Aggregated Semantic Matching for Short Text Entity Linking (ACL'18) [[paper](https://www.aclweb.org/anthology/K18-1046/)]
 
   * Effective Use of Context in Noisy Entity Linking (EMNLP'18) [[paper](https://www.aclweb.org/anthology/D18-1126/)]
+
+* Multimodal Entity Linking
+
+  * Multimodal Named Entity Disambiguation for Noisy Social Media Posts (ACL '18) [[paper](https://www.aclweb.org/anthology/P18-1186/)]
 
 * Some other papers
 
