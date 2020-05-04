@@ -11,6 +11,8 @@ This repository aims to track the progress in Entity Linking. Studies on how to 
 - [Entity Linking Introduction](#entity-linking-introductions)
 
 ### Sub Contents
+* [Bi-Encoder vs Cross-Encoder](#bi-encoder-vs-cross-encoder)
+
 * [How to Get Entity Representation?](#how-to-getprepare-entity-representations)
 * [Another Trend: BERT x KB](#another-trend-bert-x-kb)
 ---
@@ -32,9 +34,9 @@ This repository aims to track the progress in Entity Linking. Studies on how to 
 
 ## Models for Entity Linking
 
-* Improving Entity Linking by Modeling Latent Entity Type Information(AAAI'20) [paper](https://arxiv.org/abs/2001.01447)
+* Improving Entity Linking by Modeling Latent Entity Type Information (AAAI'20) [paper](https://arxiv.org/abs/2001.01447)
 
-* Zero-shot Entity Linking with Dense Entity Retrieval(10th, Nov) [paper](http://arxiv.org/pdf/1911.03814)
+* Zero-shot Entity Linking with Dense Entity Retrieval (10th, Nov) [paper](http://arxiv.org/pdf/1911.03814)
 
   * Similar to [[Logeswaran, et al., ACL'19]](#Zeroshot) and [[Gillick, et al., CoNLL'19]](#DenseEnt)
 
@@ -140,7 +142,7 @@ This repository aims to track the progress in Entity Linking. Studies on how to 
 
 # Baselines (~ACL'18)
 
-* (Commented @ Nov,'19) In those days, researches for improving Entity linking **model** itself were flourishing.
+* (Commented @ Nov, 19') In those days, researches for improving Entity linking **model** itself were flourishing.
 
 * *Bold style* indicates its SoTA score of a specific dataset.
 
@@ -155,6 +157,13 @@ This repository aims to track the progress in Entity Linking. Studies on how to 
 | Hierarchical Losses and New Resources for Fine-grainid Entity Typing and Linking                     | ACL2018   | Medmentions,Typenet                                                  | pytorch                       | Bug                           | [here](https://github.com/MurtyShikhar/Hierarchical-Typing)                                                                                                                 |
 | Joint Learning of the Embedding of Words and Entities for Named Entity Disambiguation(Yamada,Shindo) | CoNLL2016 | CoNLL-YAGO(91.5,mic-acc),CoNLL-PPD(93.1,p-mic),TAC2010(85.5,mic-acc) | pytorch/Tensorflow(original), | checking                      | [Baseline(2016)](https://github.com/hiroshi-ho/EDPipline),[Baseline Original](https://github.com/wikipedia2vec/wikipedia2vec)                                               |
 | Learning Distributed Representations of Texts and Entities from Knowledge Base(Yamada,Shindo)        | ACL2017   | CoNLL-PPD(**94.7**,p-mic),TAC2010(87.7,mic-acc)                      | pytorch/Keras(original)       | checking                      | [Torch](https://github.com/lephong/mulrel-nel/blob/master/nel/ntee.py), [Torch](https://github.com/AdityaAS/PyTorch_NTEE), [Original](https://github.com/studio-ousia/ntee) |
+
+---
+## Bi-Encoder vs Cross-Encoder
+
+* Since [[Gillick, et al., CoNLL'19]](#DenseEnt) firstly proposed Bi- (or, Dual-) encoder retrieval systems for entity linking, some papers also leveraging BERT for them.
+
+  * [Poly-Encoder](https://arxiv.org/abs/1905.01969) also can be applied to Entity Linking, as [Wu et al., 2020](http://arxiv.org/pdf/1911.03814) showed.
 
 ---
 ## How to Get/Prepare Entity Representations?
@@ -203,7 +212,7 @@ Pre-trained Language Representation](https://arxiv.org/abs/1911.06136) (work in 
 
 * (Commented @ March, 2020) Currently this repository includes papers for both of Entity linking and Entity LM. The former requires encoding entity representation for disambiguation, while the latter means injecting entity knowledge into LM during the training. So they are completely diffrent, although some work of entity LM evaluated its model with entity disambiguation. We will separate them at this repository, in the near future.
 
-* Do we have to add WSD(word sense disambiguation) and ESR(entity similarity relatedness) too?
+* Do we have to add WSD (word sense disambiguation) and ESR (entity similarity relatedness) too?
 
 * Cross-lingual EL papers.
 
