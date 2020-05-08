@@ -160,7 +160,7 @@ This repository aims to track the progress in Entity Linking. Studies on how to 
 ---
 ## Bi-Encoder vs Cross-Encoder
 
-* Since [[Gillick, et al., CoNLL'19]](#DenseEnt) firstly proposed Bi- (or, Dual-) encoder retrieval systems for entity linking, some papers also leverage BERT for them.
+* Since [[Gillick et al., CoNLL'19]](#DenseEnt) firstly proposed Bi- (or, Dual-) encoder retrieval systems for entity linking, some papers also leverage BERT for them. Original idea for Biencoder-based Retrieval system is also proposed by [[Gillick et al., '18]](https://arxiv.org/abs/1811.08008)
 
   * [Poly-Encoder](https://arxiv.org/abs/1905.01969) also can be applied to Entity Linking, as [Wu et al., 2020](http://arxiv.org/pdf/1911.03814) showed.
 
