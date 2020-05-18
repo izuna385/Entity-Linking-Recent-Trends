@@ -4,6 +4,7 @@ This repository aims to track the progress in Entity Linking. Studies on how to 
 
 
 ## Contents
+- [Trends (~ACL'20)](#trendsacl20)
 - [Trends (~ICLR'20)](#trendsiclr20)
 - [Trends (~EMNLP'19, CoNLL'19, ICLR'19)](#trendsemnlp19-conll19-iclr19)
 - [Trends (~ACL'19)](#trendsacl19)
@@ -15,6 +16,13 @@ This repository aims to track the progress in Entity Linking. Studies on how to 
 - [How to Get Entity Representation?](#how-to-getprepare-entity-representations)
 - [Another Trend: BERT x KB](#another-trend-bert-x-kb)
 ---
+# Trends(~ACL'20)
+
+* From Zero to Hero: Human-In-The-Loop
+Entity Linking in Low Resource Domains [[Link](https://public.ukp.informatik.tu-darmstadt.de/UKP_Webpage/publications/2020/2020_ACL_JCK_REC_IG_HITL_Entity_Linking%20-%20Final.pdf)]
+
+* Improving Entity Linking through Semantic Reinforced Entity Embeddings
+
 # Trends (~ICLR'20)
 
 * Pretrained Encyclopedia: Weakly Supervised Knowledge-Pretrained Language Model (ICLR'20) [[paper](https://openreview.net/forum?id=BJlzm64tDH)]
