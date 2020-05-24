@@ -21,6 +21,9 @@ This repository aims to track the progress in Entity Linking. Studies on how to 
 * From Zero to Hero: Human-In-The-Loop
 Entity Linking in Low Resource Domains [[Link](https://public.ukp.informatik.tu-darmstadt.de/UKP_Webpage/publications/2020/2020_ACL_JCK_REC_IG_HITL_Entity_Linking%20-%20Final.pdf)]
 
+  * [Slides (unofficial)](https://speakerdeck.com/izuna385/unofficial-slides-from-zero-to-hero-human-in-the-loop-entity-linking-in-low-resource-domains-acl-2020)
+
+
 * Improving Entity Linking through Semantic Reinforced Entity Embeddings
 
 # Trends (~ICLR'20)
@@ -162,7 +165,7 @@ Entity Linking in Low Resource Domains [[Link](https://public.ukp.informatik.tu-
 | ELDEN                                                                                                | NAACL2018 | CoNLL-PPD(93.0,p-mic),TAC2010(89.6,mic-p)                            | lua,torch(lua)                | Bug                           | [here](https://github.com/priyaradhakrishnan0/ELDEN)                                                                                                                        |
 | Deep Joint Entity Disambiguation with Local Neural Attention                                         | EMNLP2017 | CoNLL-YAGO(92.22,mic-acc),CWEB,WW,ACE2004,AQUAINT,MSNBC              | lua,torch(lua)                | Train Running(2019/01/15)     | [here](https://github.com/dalab/deep-ed)                                                                                                                                    |
 | Hierarchical Losses and New Resources for Fine-grainid Entity Typing and Linking                     | ACL2018   | Medmentions,Typenet                                                  | pytorch                       | Bug                           | [here](https://github.com/MurtyShikhar/Hierarchical-Typing)                                                                                                                 |
-| Joint Learning of the Embedding of Words and Entities for Named Entity Disambiguation(Yamada,Shindo) | CoNLL2016 | CoNLL-YAGO(91.5,mic-acc),CoNLL-PPD(93.1,p-mic),TAC2010(85.5,mic-acc) | pytorch/Tensorflow(original), | checking                      | [Baseline(2016)](https://github.com/hiroshi-ho/EDPipline),[Baseline Original](https://github.com/wikipedia2vec/wikipedia2vec)                                               |
+| Joint Learning of the Embedding of Words and Entities for Named Entity Disambiguation(Yamada,Shindo) | CoNLL2016 | CoNLL-YAGO(91.5,mic-acc),CoNLL-PPD(93.1,p-mic),TAC2010(85.5,mic-acc) | pytorch/Tensorflow(original), | checking                      | [Baseline Original](https://github.com/wikipedia2vec/wikipedia2vec)                                               |
 | Learning Distributed Representations of Texts and Entities from Knowledge Base(Yamada,Shindo)        | ACL2017   | CoNLL-PPD(**94.7**,p-mic),TAC2010(87.7,mic-acc)                      | pytorch/Keras(original)       | checking                      | [Torch](https://github.com/lephong/mulrel-nel/blob/master/nel/ntee.py), [Torch](https://github.com/AdityaAS/PyTorch_NTEE), [Original](https://github.com/studio-ousia/ntee) |
 
 ---
