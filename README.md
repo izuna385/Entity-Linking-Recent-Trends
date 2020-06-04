@@ -222,6 +222,10 @@ Pre-trained Language Representation](https://arxiv.org/abs/1911.06136) (work in 
 
 ## Misc
 
+* Comprehensive survey paper of Entity Linking has appeared.
+
+  * [Neural Entity Linking: A Survey of Models based on Deep Learning](https://arxiv.org/abs/2006.00575)
+
 * (Commented @ March, 2020) Currently this repository includes papers for both of Entity linking and Entity LM. The former requires encoding entity representation for disambiguation, while the latter means injecting entity knowledge into LM during the training. So they are completely diffrent, although some work of entity LM evaluated its model with entity disambiguation. We will separate them at this repository, in the near future.
 
 * Do we have to add WSD (word sense disambiguation) and ESR (entity similarity relatedness) too?
