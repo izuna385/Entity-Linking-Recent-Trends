@@ -1,4 +1,4 @@
-# Recent Trends of Entiy Linking
+# Recent Trends of Entity Linking
 This repository aims to track the progress in Entity Linking. Studies on how to prepare Entity Representations are also listed, as Entity Representations are mandatory with Entity Linking.
 
 
