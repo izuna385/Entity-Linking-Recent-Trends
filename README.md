@@ -10,6 +10,7 @@ This repository aims to track the progress in Entity Linking. Studies on how to 
 - [Trends (~ACL'19)](#trendsacl19)
 - [Baselines (~ACL'18)](#baselinesacl18)
 - [Entity Linking Introduction](#entity-linking-introductions)
+- [Datasets](#datasets)
 
 ### Sub Contents
 - [Bi-Encoder vs Cross-Encoder](#bi-encoder-vs-cross-encoder)
@@ -167,6 +168,41 @@ Entity Linking in Low Resource Domains [[Link](https://public.ukp.informatik.tu-
 | Hierarchical Losses and New Resources for Fine-grainid Entity Typing and Linking                     | ACL2018   | Medmentions,Typenet                                                  | pytorch                       | Bug                           | [here](https://github.com/MurtyShikhar/Hierarchical-Typing)                                                                                                                 |
 | Joint Learning of the Embedding of Words and Entities for Named Entity Disambiguation(Yamada,Shindo) | CoNLL2016 | CoNLL-YAGO(91.5,mic-acc),CoNLL-PPD(93.1,p-mic),TAC2010(85.5,mic-acc) | pytorch/Tensorflow(original), | checking                      | [Baseline Original](https://github.com/wikipedia2vec/wikipedia2vec)                                               |
 | Learning Distributed Representations of Texts and Entities from Knowledge Base(Yamada,Shindo)        | ACL2017   | CoNLL-PPD(**94.7**,p-mic),TAC2010(87.7,mic-acc)                      | pytorch/Keras(original)       | checking                      | [Torch](https://github.com/lephong/mulrel-nel/blob/master/nel/ntee.py), [Torch](https://github.com/AdityaAS/PyTorch_NTEE), [Original](https://github.com/studio-ousia/ntee) |
+
+## Datasets
+### General
+Note: major datasets for benchmarking this task are listed at [BLINK repository](https://github.com/facebookresearch/BLINK#benchmarking-blink).
+
+### Domain-Specific
+* Biomedical
+
+  * Medmentions ([[Mohan and Li, AKBC '19](https://github.com/chanzuckerberg/MedMentions)])
+
+    * MedMentions was created as a benchmark dataset for named entity recognition and entity linking in the biomedical domain.
+
+    * As it contains many concepts that are too broad to be of practical use, St21pv was constructed by filtering out those broad concepts from MedMentions.
+
+  * BC5CDR ([[Li et al., '15'](https://academic.oup.com/database/article/doi/10.1093/database/baw068/2630414)])
+
+    * BC5CDR is a dataset created for the BioCreative V Chemical and Disease Mention Recognition task.
+
+    * It comprises 1,500 articles, containing 15,935 chemical and 12,852 disease mentions.
+
+    * The reference knowledge base is MeSH, and almost all mentions have a gold entity in the reference knowledge base.
+
+  * WikiMed and PubMedDS ([[Shikhar et al., '20](https://github.com/svjan5/medtype)])
+
+      * *WIKIMED includes over 650,000 mentions normalized to concepts in UMLS.* (Cited)
+
+      *  Also, they created annotated corpus PUBMEDDS with more than 5 million normalized mentions. Note that this dataset was created by distant supervision, which leads to cause some noisy annotations.
+
+* Zero-shot
+
+  * Wikia datasets ([[Logeswaran et al., '19](https://www.aclweb.org/anthology/P19-1335/)])
+
+    * From Wikia hyperlinks and its related themes, they created dataset for evaluating domain generalization of entity linking task.
+
+    * They created 16 *worlds* dataset, which were split to 8 / 4 / 4 for train / dev / test and completely independent for each other.
 
 ---
 ## Bi-Encoder vs Cross-Encoder
