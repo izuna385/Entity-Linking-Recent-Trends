@@ -4,6 +4,7 @@ This repository aims to track the progress in Entity Linking. Studies on how to 
 
 
 ## Contents
+- [Trends (~EMNLP'20)](#trends-emnlp20)
 - [Trends (~ACL'20)](#trendsacl20)
 - [Trends (~ICLR'20)](#trendsiclr20)
 - [Trends (~EMNLP'19, CoNLL'19, ICLR'19)](#trendsemnlp19-conll19-iclr19)
@@ -17,6 +18,14 @@ This repository aims to track the progress in Entity Linking. Studies on how to 
 - [How to Get Entity Representation?](#how-to-getprepare-entity-representations)
 - [Another Trend: BERT x KB](#another-trend-bert-x-kb)
 ---
+# Trends (~EMNLP'20)
+
+* LUKE: Deep Contextualized Entity Representations with Entity-aware Self-attention [[Link](https://arxiv.org/pdf/2010.01057.pdf)] [[Codes](https://github.com/studio-ousia/luke)]
+
+  * They proposed new pretraining task based on BERT, in which randomly masked words and entities are predicted in entity-annotated corpus from Wikipedia.
+
+  * Also in pretraining task, they proposed an extended version of the transformer, which considers an entity-aware self-attention and the types of tokens (words or entities) when computing attention scores.  
+
 # Trends(~ACL'20)
 
 * From Zero to Hero: Human-In-The-Loop
@@ -32,6 +41,7 @@ Entity Linking in Low Resource Domains [[Link](https://public.ukp.informatik.tu-
 * Pretrained Encyclopedia: Weakly Supervised Knowledge-Pretrained Language Model (ICLR'20) [[paper](https://openreview.net/forum?id=BJlzm64tDH)]
 
   * Adding a binary prediction task classifying whether entity is replaced or not, they trained the language model. For their purpose of checking whether LM itself contains knowledge, they evaluated model with Zero-Shot Fact Completion using Wikidata triplets.  
+
 
 * K-Adapter: Infusing Knowledge into Pre-Trained Models with Adapters [[paper](https://arxiv.org/abs/2002.01808)]
 
