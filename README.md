@@ -26,6 +26,26 @@ This repository aims to track the progress in Entity Linking. Studies on how to 
 
   * Also in pretraining task, they proposed an extended version of the transformer, which considers an entity-aware self-attention and the types of tokens (words or entities) when computing attention scores.  
 
+* Scalable Zero-shot Entity Linking with Dense Entity Retrieval
+
+  * See [here](#ZeroshotDense).
+
+
+* Entity Linking in 100 Languages [[paper]](https://www.aclweb.org/anthology/2020.emnlp-main.630/)
+
+  * They proposed a new formulation for multilingual entity linking, in which language-specific mentions resolve to a language-agnostic Knowledge Base. Also they provide Mewsli-9, a large new multilingual dataset matched to this setting.
+
+
+* COMETA: A Corpus for Medical Entity Linking in the Social Media [[paper]](https://www.aclweb.org/anthology/2020.emnlp-main.253/)
+
+  * They presented COMETA, a unique corpus of large scale and coverage which is consisting of 20k English biomedical entity mentions with expert-annotated annotations, linked to SNOMED CT knowledge graph.
+
+
+* Zero-shot Entity Linking with Efficient Long Range Sequence Modeling [[paper]](https://www.aclweb.org/anthology/2020.findings-emnlp.228/)
+
+  * They propose a new position embeddings initialization method called Embeddings-repeat, which initializes  larger position embeddings by repeating the small one from BERT-Base. For the zero-shot entity linking, their method improves the SOTA from 76.06% to 79.08% on its dataset.
+
+
 # Trends(~ACL'20)
 
 * From Zero to Hero: Human-In-The-Loop
@@ -57,7 +77,7 @@ Entity Linking in Low Resource Domains [[Link](https://public.ukp.informatik.tu-
 
 * Improving Entity Linking by Modeling Latent Entity Type Information (AAAI'20) [paper](https://arxiv.org/abs/2001.01447)
 
-* Zero-shot Entity Linking with Dense Entity Retrieval (10th, Nov) [paper](http://arxiv.org/pdf/1911.03814)
+* Zero-shot Entity Linking with Dense Entity Retrieval (10th, Nov) [paper](http://arxiv.org/pdf/1911.03814) <a name="ZeroshotDense"></a>
 
   * Similar to [[Logeswaran, et al., ACL'19]](#Zeroshot) and [[Gillick, et al., CoNLL'19]](#DenseEnt)
 
