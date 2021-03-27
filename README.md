@@ -4,7 +4,7 @@ This repository aims to track the progress in Entity Linking. Studies on how to 
 
 
 ## Contents
-- [Trends (~EMNLP'20)](#trends-emnlp20)
+- [Trends (~EMNLP'20 and CoNLL'20)](#trends-emnlp20-and-conll20)
 - [Trends (~ACL'20)](#trendsacl20)
 - [Trends (~ICLR'20)](#trendsiclr20)
 - [Trends (~EMNLP'19, CoNLL'19, ICLR'19)](#trendsemnlp19-conll19-iclr19)
@@ -18,9 +18,14 @@ This repository aims to track the progress in Entity Linking. Studies on how to 
 - [How to Get Entity Representation?](#how-to-getprepare-entity-representations)
 - [Another Trend: BERT x KB](#another-trend-bert-x-kb)
 ---
-# Trends (~EMNLP'20)
+# Trends (~EMNLP'20 and CoNLL'20)
 
-* LUKE: Deep Contextualized Entity Representations with Entity-aware Self-attention [[Link](https://arxiv.org/pdf/2010.01057.pdf)] [[Codes](https://github.com/studio-ousia/luke)]
+* In Media Res: A Corpus for Evaluating Named Entity Linking with Creative Works [[paper]](https://www.aclweb.org/anthology/2020.conll-1.28/) [[codes]](https://github.com/modultechnology/in_media_res)
+
+  * They pointed out that there was a lack of annotation guidances and styles in the Named entity linking, specifically for Creative Works. They designed new corpus with the aim of understanding different annotation styles for this domain, including franchise, books, TV shows, and so on.
+
+
+* LUKE: Deep Contextualized Entity Representations with Entity-aware Self-attention [[Link]](https://arxiv.org/pdf/2010.01057.pdf) [[Codes]](https://github.com/studio-ousia/luke)
 
   * They proposed new pretraining task based on BERT, in which randomly masked words and entities are predicted in entity-annotated corpus from Wikipedia.
 
@@ -212,6 +217,7 @@ Note: major datasets for benchmarking this task are listed at [BLINK repository]
 
     * As it contains many concepts that are too broad to be of practical use, St21pv was constructed by filtering out those broad concepts from MedMentions.
 
+
   * BC5CDR ([[Li et al., '15'](https://academic.oup.com/database/article/doi/10.1093/database/baw068/2630414)])
 
     * BC5CDR is a dataset created for the BioCreative V Chemical and Disease Mention Recognition task.
@@ -243,12 +249,20 @@ Note: major datasets for benchmarking this task are listed at [BLINK repository]
 
     * [Slides (unofficial) for Poly-Encoders](https://speakerdeck.com/izuna385/poly-encoders-transformer-architectures-and-pre-training-strategies-for-fast-and-accurate-multi-sentence-scoring)
 
+
+* Transformer-based encoder is often adopted for mention and entity encoding.
+
+  <img src="./img/transformer_encoder.png" width="500"/>
+
+
+  * Since the release of [BLINK](), bi-encoder is gradually being adopted in domain-specific settings, such as [[Partalidou et al', 21']](https://arxiv.org/abs/2103.04156) and [[Bhowmik et al', '21]](https://arxiv.org/abs/2103.05028).
+
 ---
 ## How to Get/Prepare Entity Representations?
 
 * Based on papers@December,'19
 
-<img src='./img/entrep.png' width=960>
+<img src='./img/entrep.png' width=700>
 
 ---
 
@@ -268,33 +282,35 @@ Pre-trained Language Representation](https://arxiv.org/abs/1911.06136) (work in 
 ---
 
 # Entity Linking Introductions
-<img src='./img/intro.png' width=960>
+<img src='./img/intro.png' width=700>
 
-<img src='./img/procedure.png' width=960>
+<img src='./img/procedure.png' width=700>
 
 ## Local Model and Global Model
 * Details are wrintten in *Neural Collective Entity Linking*. [paper](http://www.aclweb.org/anthology/C18-1057)
 
 ### Trend in the Point of *local* vs *global*
 
-<img src='./img/localvsglobal.png' width=960>
+<img src='./img/localvsglobal.png' width=700>
 
 ### What is *local*/*global* Model?
-<img src='./img/local.png' width=960>
+<img src='./img/local.png' width=700>
 
-<img src='./img/global.png' width=960>
+<img src='./img/global.png' width=700>
 
 ---
 
 ## Misc
 
+* Bi-encoder based entity linking tutorial and its implementation. [[link]](https://github.com/izuna385/Entity-Linking-Tutorial)
+
 * Comprehensive survey paper of Entity Linking has appeared.
 
   * [Neural Entity Linking: A Survey of Models based on Deep Learning](https://arxiv.org/abs/2006.00575)
 
+
 * (Commented @ March, 2020) Currently this repository includes papers for both of Entity linking and Entity LM. The former requires encoding entity representation for disambiguation, while the latter means injecting entity knowledge into LM during the training. So they are completely diffrent, although some work of entity LM evaluated its model with entity disambiguation. We will separate them at this repository, in the near future.
 
-* Do we have to add WSD (word sense disambiguation) and ESR (entity similarity relatedness) too?
 
 * Cross-lingual EL papers.
 
@@ -316,6 +332,7 @@ such as Wikipedia.
 * Multimodal Entity Linking
 
   * Multimodal Named Entity Disambiguation for Noisy Social Media Posts (ACL '18) [[paper](https://www.aclweb.org/anthology/P18-1186/)]
+
 
 * Some other papers
 
