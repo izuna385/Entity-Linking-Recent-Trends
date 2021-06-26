@@ -4,6 +4,7 @@ This repository aims to track the progress in Entity Linking. Studies on how to 
 
 
 ## Contents
+- [Trends (NAACL'21 and ICLR'21)](#trends-naacl21-and-iclr21)
 - [Trends (~EMNLP'20 and CoNLL'20)](#trends-emnlp20-and-conll20)
 - [Trends (~ACL'20)](#trendsacl20)
 - [Trends (~ICLR'20)](#trendsiclr20)
@@ -18,6 +19,19 @@ This repository aims to track the progress in Entity Linking. Studies on how to 
 - [How to Get Entity Representation?](#how-to-getprepare-entity-representations)
 - [Another Trend: BERT x KB](#another-trend-bert-x-kb)
 ---
+# Trends (NAACL'21 and ICLR'21)
+* [AUTOREGRESSIVE ENTITY RETRIEVAL](https://openreview.net/forum?id=5k8F6UU39V)
+
+  * Traditional entity linking systems suffer from memory consumption due to prior encoding of entities in the knowledge base, computational resource cost due to comparison of all entities in the knowledge base, and cold start problems.
+
+  * Instead of previous architecture, they exploits a sequence-to-sequence one to generate entity names in an autoregressive fashion conditioned on the context. They used constrained Beam Search, forcing to only decode valid entity identifier.
+
+* [Linking Entities to Unseen Knowledge Bases with Arbitrary Schemas](https://www.aclweb.org/anthology/2021.naacl-main.65/)
+
+  * Traditional entity linking systems assume that the schema of the knowledge base that ties the predicted entities together is known. They proposed a new method to convert the schema of unknown entities to BERT embedding using attributes and auxiliary tokens.
+
+  * At the same time, they also proposed a training method to deal with unknown attributes.
+
 # Trends (~EMNLP'20 and CoNLL'20)
 
 * In Media Res: A Corpus for Evaluating Named Entity Linking with Creative Works [[paper]](https://www.aclweb.org/anthology/2020.conll-1.28/) [[codes]](https://github.com/modultechnology/in_media_res)
@@ -207,6 +221,11 @@ Entity Linking in Low Resource Domains [[Link](https://public.ukp.informatik.tu-
 ## Datasets
 ### General
 Note: major datasets for benchmarking this task are listed at [BLINK repository](https://github.com/facebookresearch/BLINK#benchmarking-blink).
+
+### Multilingual
+* [Mewsli-9 Dataset](https://github.com/google-research/google-research/tree/master/dense_representations_for_entity_retrieval/mel#mewsli-9-dataset)
+
+  * This dataset was created from WikiNews, and covers 9 diverse languages, 5 language families and 6 writing systems.
 
 ### Domain-Specific
 * Biomedical
